@@ -822,6 +822,7 @@ GameObject:
   - component: {fileID: 238758057}
   - component: {fileID: 238758059}
   - component: {fileID: 238758058}
+  - component: {fileID: 238758060}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -58228,6 +58229,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &238758060
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238758053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cec5210522d196245828c0da133d5bbc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &243032926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65411,11 +65432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1178196689412980744, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.68
       objectReference: {fileID: 0}
     - target: {fileID: 1178196689412980744, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1178196689412980744, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -65453,5 +65474,58 @@ PrefabInstance:
       propertyPath: m_Name
       value: bot
       objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1662674
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6524527
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.016206264
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.8265163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.7069987
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438768442965581853, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.7053334
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+--- !u!1 &9183359633820291440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3940801889623202759, guid: eb0285c6010f78d44ad8375723bfe4f6, type: 3}
+  m_PrefabInstance: {fileID: 9183359633820291439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9183359633820291441
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9183359633820291440}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c488a9c0739d285419c5c16d4c8ff20d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
