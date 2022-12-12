@@ -26,7 +26,7 @@ public class RubyController : MonoBehaviour
     float vertical;
 
     Animator animator;
-    Vector2 lookDirection = new Vector2(1, 0);
+    Vector2 lookDirection = new Vector2(1,0);
 
     AudioSource audioSource;
 
